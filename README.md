@@ -21,7 +21,7 @@ For further reference, please consider the following sections:
 * Spring-boot-test for unit testing
 
 ### Final Thoughts
- I believe the answers to question 7, 8f, 9 as defined in the spec are inaccurate.
+ I believe the answers to question 7, 8, 9 as defined in the spec are inaccurate.
 
 7) How many connections with maximum 3 stops exists between NUE and FRA? should be 1 as NUE - FRA is a direct connection
 8) How many connections with exactly 1 stop exists between LHR and AMS? should be 0 because you can only get to AMS for LHR using [LHR,NUE,FRA,AMS]
