@@ -13,7 +13,7 @@ To run follow the following steps:
 If your input file is input.txt, resulting command is  java -jar FliteTrakr-0.0.1-SNAPSHOT.jar input.txt
 
 ### Dependency List
-For further reference, please consider the following sections:
+The following dependencies were used in this project:
 
 * Spring-Boot-Starter for managing dependency
 * Spring-boot-devtools for managing application life cycle during development
