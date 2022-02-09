@@ -29,11 +29,10 @@ public class FliteTrakrApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		/*if(args.length == 0){
-			log.error("No input file passed");
-			// For unit test, remove after
-			args = new String[]{"input.txt"};
-		}*/
+		if(args.length == 0){
+			log.error("Input file not found");
+			return;
+		}
 
 		//Read .txt file containing connection information as String
 		String connectionString = fileReaderService.readFileFromInput(args[0]);
