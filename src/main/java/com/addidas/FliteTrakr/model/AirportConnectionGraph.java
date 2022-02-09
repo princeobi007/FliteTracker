@@ -4,13 +4,11 @@ package com.addidas.FliteTrakr.model;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Data
 @Slf4j
-@Component
 public class AirportConnectionGraph {
     private final List<Airport> airportList;
     private final int[][] airportConnections;
