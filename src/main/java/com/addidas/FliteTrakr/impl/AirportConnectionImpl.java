@@ -1,7 +1,6 @@
 package com.addidas.FliteTrakr.impl;
 
 import com.addidas.FliteTrakr.model.Airport;
-import com.addidas.FliteTrakr.model.AirportConnection;
 import com.addidas.FliteTrakr.model.AirportConnectionGraph;
 import com.addidas.FliteTrakr.usecase.IAirportConnection;
 import lombok.RequiredArgsConstructor;
